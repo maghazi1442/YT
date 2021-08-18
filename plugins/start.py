@@ -8,6 +8,32 @@ async def start(client, message):
         [InlineKeyboardButton("Channel", url="https://t.me/joinchat/pL-DrCapqsNiYWVh")],
         [InlineKeyboardButton(
             "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton(
+            "Contact", url="https://t.me/joincontact")]
     ])
     welcomed = f"Selamat datang di bot Annajiyah Media Center <b>{message.from_user.first_name}</b>\n/help untuk cara menggunakan"
     await message.reply_text(welcomed, reply_markup=joinButton)
