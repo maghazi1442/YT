@@ -5,9 +5,8 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Channel", url="https://t.me/joinchat/pL-DrCapqsNiYWVh")],
-        [InlineKeyboardButton(
-            "Contact", url="https://t.me/joincontact")]
+        [InlineKeyboardButton("Channel", url="https://t.me/joinchat/JBcrDwIEMzoxODdh")],
+        [InlineKeyboardButton("Contact", url="https://t.me/AMC_Contact_Bot")]
        
     ])
     welcomed = f"Selamat datang di bot Annajiyah Media Center <b>{message.from_user.first_name}</b>\n/help untuk cara menggunakan"
